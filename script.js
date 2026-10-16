@@ -1,12 +1,12 @@
 const WHATSAPP_NUMBER = "5521994131849";
 const flavorImages = {
   "Chocolate": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=700&q=80",
-  "Branco": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=80",
-  "Laranja": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80",
-  "Cenoura": "https://images.unsplash.com/photo-1621303837174-89787a7d4729?auto=format&fit=crop&w=700&q=80",
-  "Milho": "https://images.unsplash.com/photo-1562376552-0d160a2f238d?auto=format&fit=crop&w=700&q=80",
-  "Formigueiro": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=80",
-  "Fubá": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80"
+  "Branco": "imagens/bolo-branco.jpg",
+  "Laranja": "imagens/bolo-laranja.jpg",
+  "Cenoura": "imagens/bolo-cenoura.jpg",
+  "Milho": "imagens/bolo-milho.jpg",
+  "Formigueiro": "imagens/bolo-formigueiro.webp",
+  "Fubá": "imagens/bolo-fuba.webp"
 };
 let selectedFlavor = "Chocolate";
 const money = value => value.toLocaleString("pt-BR", {style:"currency", currency:"BRL"});
