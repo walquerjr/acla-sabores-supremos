@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080706">
+  <meta name="description" content="ACLA Sabores Supremos: bolos caseiros artesanais, feitos com carinho. Escolha seu sabor e peça pelo WhatsApp.">
+  <title>ACLA Sabores Supremos | Bolos Artesanais</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="ACLA Sabores Supremos - início">
+      <span class="brand-mark">♡</span>
+      <span><strong>ACLA</strong><small>SABORES SUPREMOS</small></span>
+    </a>
+    <a class="header-order" href="#pedir">Fazer pedido <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> FEITO ARTESANALMENTE</p>
+        <h1>Mais que bolos,<br><em>amor em cada fatia.</em></h1>
+        <p class="hero-description">Bolos caseiros fofinhos, preparados com carinho para deixar seu dia mais gostoso.</p>
+        <a class="button button-gold" href="#sabores">Escolha seu sabor <span>↓</span></a>
+        <div class="hero-notes">
+          <span>♡ Ingredientes de qualidade</span>
+          <span>✧ Feitos com carinho</span>
+        </div>
+      </div>
+      <div class="hero-art" role="img" aria-label="Bolo caseiro com cobertura de chocolate">
+        <div class="hero-glow"></div>
+        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1000&q=85" alt="Bolo artesanal decorado" onerror="this.style.display='none'">
+        <div class="hero-stamp"><span>FEITO</span><strong>com amor</strong><span>♡ ACLA ♡</span></div>
+      </div>
+    </section>
+
+    <section class="section flavors-section" id="sabores">
+      <div class="section-heading">
+        <p class="eyebrow">NOSSO CARDÁPIO</p>
+        <h2>Escolha seu sabor</h2>
+        <p>Todos os bolos têm aproximadamente 18 cm.</p>
+      </div>
+      <div class="flavor-grid">
+        <button class="flavor-card selected" type="button" data-flavor="Chocolate" aria-pressed="true">
+          <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=700&q=80" alt="Bolo de chocolate" loading="lazy">
+          <span class="flavor-name">Chocolate</span><span class="flavor-hint">Clássico e irresistível</span><span class="choose-label">Selecionado ✓</span>
+        </button>
+        <button class="flavor-card" type="button" data-flavor="Branco" aria-pressed="false">
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=80" alt="Bolo branco" loading="lazy">
+          <span class="flavor-name">Branco</span><span class="flavor-hint">Leve e delicado</span><span class="choose-label">Escolher sabor</span>
+        </button>
+        <button class="flavor-card" type="button" data-flavor="Laranja" aria-pressed="false">
+          <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80" alt="Bolo caseiro de laranja" loading="lazy">
+          <span class="flavor-name">Laranja</span><span class="flavor-hint">Aconchego em cada pedaço</span><span class="choose-label">Escolher sabor</span>
+        </button>
+        <button class="flavor-card" type="button" data-flavor="Cenoura" aria-pressed="false">
+          <img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?auto=format&fit=crop&w=700&q=80" alt="Bolo de cenoura" loading="lazy">
+          <span class="flavor-name">Cenoura</span><span class="flavor-hint">Sabor de casa</span><span class="choose-label">Escolher sabor</span>
+        </button>
+        <button class="flavor-card" type="button" data-flavor="Milho" aria-pressed="false">
+          <img src="https://images.unsplash.com/photo-1562376552-0d160a2f238d?auto=format&fit=crop&w=700&q=80" alt="Bolo de milho" loading="lazy">
+          <span class="flavor-name">Milho</span><span class="flavor-hint">Tradicional e macio</span><span class="choose-label">Escolher sabor</span>
+        </button>
+        <button class="flavor-card" type="button" data-flavor="Formigueiro" aria-pressed="false">
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=80" alt="Bolo formigueiro" loading="lazy">
+          <span class="flavor-name">Formigueiro</span><span class="flavor-hint">Granulado em cada fatia</span><span class="choose-label">Escolher sabor</span>
+        </button>
+        <button class="flavor-card" type="button" data-flavor="Fubá" aria-pressed="false">
+          <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80" alt="Bolo de fubá" loading="lazy">
+          <span class="flavor-name">Fubá</span><span class="flavor-hint">O gostinho da tradição</span><span class="choose-label">Escolher sabor</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="order-section" id="pedir">
+      <div class="order-intro">
+        <p class="eyebrow">SEU BOLO, DO SEU JEITO</p>
+        <h2>Monte seu pedido</h2>
+        <p>Escolha a calda e como prefere pagar. A entrega é combinada diretamente pelo WhatsApp.</p>
+      </div>
+      <div class="order-layout">
+        <form id="order-form" class="order-form">
+          <fieldset>
+            <legend><span>01</span> Escolha a calda</legend>
+            <label class="option-card"><input type="radio" name="calda" value="Sem calda" checked><span class="option-icon">○</span><span><strong>Sem calda</strong><small>Para quem ama o bolo simples</small></span></label>
+            <label class="option-card"><input type="radio" name="calda" value="Chocolate"><span class="option-icon">●</span><span><strong>Chocolate</strong><small>Cremosa e chocolatuda</small></span></label>
+            <label class="option-card"><input type="radio" name="calda" value="Ninho"><span class="option-icon">●</span><span><strong>Ninho</strong><small>Doce e aveludada</small></span></label>
+          </fieldset>
+          <fieldset>
+            <legend><span>02</span> Forma de pagamento</legend>
+            <div class="payment-options">
+              <label class="payment-card"><input type="radio" name="pagamento" value="Dinheiro" checked><span>💵</span><strong>Dinheiro</strong></label>
+              <label class="payment-card"><input type="radio" name="pagamento" value="Cartão"><span>💳</span><strong>Cartão</strong></label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend><span>03</span> Seus dados</legend>
+            <label class="field-label" for="nome">Seu nome</label>
+            <input id="nome" name="nome" type="text" placeholder="Como podemos te chamar?" required>
+            <label class="field-label" for="endereco">Endereço de entrega</label>
+            <textarea id="endereco" name="endereco" rows="2" placeholder="Rua, número, bairro e referência" required></textarea>
+            <label class="field-label" for="observacoes">Observações (opcional)</label>
+            <input id="observacoes" name="observacoes" type="text" placeholder="Ex.: ponto de referência">
+          </fieldset>
+          <button class="button button-gold submit-button" type="submit">Pedir pelo WhatsApp <span>↗</span></button>
+          <p class="form-note">A taxa de entrega será combinada antes da confirmação do pedido.</p>
+        </form>
+
+        <aside class="order-summary">
+          <div class="summary-top"><span>RESUMO DO PEDIDO</span><span class="summary-heart">♡</span></div>
+          <div class="summary-cake"><img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=700&q=80" alt="Bolo artesanal" id="summary-image"></div>
+          <p class="summary-label">SEU SABOR</p><h3 id="summary-flavor">Bolo de Chocolate</h3>
+          <div class="summary-row"><span>Calda</span><strong id="summary-calda">Sem calda</strong></div>
+          <div class="summary-row"><span>Pagamento</span><strong id="summary-payment">Dinheiro</strong></div>
+          <div class="summary-row"><span>Tamanho</span><strong>18 cm</strong></div>
+          <div class="summary-row delivery-row"><span>Entrega</span><strong>A combinar</strong></div>
+          <div class="summary-total"><span>Valor do bolo</span><strong id="summary-price">R$ 13,00</strong></div>
+          <p class="summary-disclaimer">O total não inclui a taxa de entrega. Confirmaremos o valor pelo WhatsApp.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="promise-strip">
+      <div><span>♡</span><strong>Feito artesanalmente</strong><small>Carinho em cada preparo</small></div>
+      <div><span>✧</span><strong>Ingredientes de qualidade</strong><small>Sabor que dá vontade de repetir</small></div>
+      <div><span>⌂</span><strong>Entrega combinada</strong><small>Receba no conforto de casa</small></div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#inicio"><span class="brand-mark">♡</span><span><strong>ACLA</strong><small>SABORES SUPREMOS</small></span></a>
+    <p>Mais que bolos, amor em cada fatia.</p>
+    <a class="footer-whatsapp" href="https://wa.me/5521994131849" target="_blank" rel="noopener">Fale com a gente no WhatsApp ↗</a>
+    <small class="copyright">© <span id="year"></span> ACLA Sabores Supremos. Feito com carinho.</small>
+  </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/5521994131849?text=Ol%C3%A1%2C%20quero%20fazer%20um%20pedido%20na%20ACLA%20Sabores%20Supremos!" target="_blank" rel="noopener" aria-label="Abrir WhatsApp">☏</a>
+  <script src="script.js"></script>
+</body>
+</html>

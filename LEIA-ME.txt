@@ -1,0 +1,40 @@
+ACLA SABORES SUPREMOS — SITE
+
+ARQUIVOS
+- index.html: estrutura do site
+- style.css: visual e adaptação para celular
+- script.js: seleção de sabor, cálculo de preço e envio de pedido ao WhatsApp
+
+COMO TESTAR NO COMPUTADOR
+1. Extraia o arquivo ZIP.
+2. Abra a pasta extraída.
+3. Dê dois cliques em index.html. O navegador abre o site.
+4. Escolha sabor, calda e pagamento, preencha nome e endereço e teste o botão do WhatsApp.
+   O pedido só será enviado quando a pessoa confirmar a mensagem no WhatsApp.
+
+COMO PUBLICAR GRATUITAMENTE NA NETLIFY (DRAG AND DROP)
+1. Acesse https://app.netlify.com/ e entre/crie sua conta.
+2. Extraia o ZIP para obter a pasta acla-sabores-supremos.
+3. No painel da Netlify, procure a opção de adicionar um novo site/projeto e escolha fazer deploy manual
+   (a opção pode aparecer como "Deploy manually" ou "Netlify Drop").
+4. Arraste a pasta que contém index.html, style.css e script.js para a área de deploy. Se a Netlify não
+   aceitar a pasta, abra-a e arraste os três arquivos juntos, ou compacte o CONTEÚDO da pasta em um novo ZIP.
+5. Aguarde o deploy terminar. A Netlify mostrará um endereço público terminado em netlify.app.
+6. Abra esse endereço no celular e faça um teste completo.
+7. Para mudar o nome/endereço do site, entre em Site configuration / Domain management / Options
+   (os nomes podem variar) e altere o nome do site se estiver disponível.
+
+CONFIGURAÇÕES JÁ FEITAS
+- Marca: ACLA Sabores Supremos
+- WhatsApp: 5521994131849
+- Sabores: Chocolate, Branco, Laranja, Cenoura, Milho, Formigueiro e Fubá
+- Preços: sem calda — dinheiro R$ 13,00 / cartão R$ 15,00; com calda — dinheiro R$ 18,00 / cartão R$ 19,00
+- Caldas: sem calda, Chocolate ou Ninho
+- Bolo de 18 cm
+- Entrega: taxa a combinar
+
+OBSERVAÇÕES IMPORTANTES
+- As fotos do catálogo enviado não foram extraídas automaticamente; o site usa fotos ilustrativas externas. Você pode trocar as URLs das imagens no index.html e script.js pelas fotos reais dos bolos para ficar mais fiel ao catálogo.
+- As fotos externas exigem conexão com a internet.
+- O pedido abre o WhatsApp com a mensagem preenchida; o cliente ainda precisa apertar Enviar.
+- A taxa de entrega não está incluída no preço do bolo e deve ser combinada pelo WhatsApp.
